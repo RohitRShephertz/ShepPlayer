@@ -12,7 +12,7 @@ environments {
             driverClassName = "com.mysql.jdbc.Driver"
             username = "adupmbs62z8xzw3e"
             password = "a4wyk9k9b7r1fce15u7a5amfhoxwiz2w"
-            url = "jdbc:mysql://54.213.93.154:15532/app42?autoReconnect=true"
+            url = "jdbc:mysql://172.16.2.167:15532/app42?autoReconnect=true"
             dialect = "org.hibernate.dialect.MySQL5InnoDBDialect"
             properties {
                 validationQuery="select 1"
