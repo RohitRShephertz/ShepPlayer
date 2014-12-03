@@ -22,20 +22,20 @@
     </style>
   </head>
   <body>
-    <div id="header">
-      <h1 style="padding-top: 15px;"><a href="http://www.shephertz.com/"> <img border="0" alt="ShepHertz Technologies" src="http://www.shephertz.com/images/logo.png"  style=" padding-top:5px"> </a></h1>
+    <div id="header" style="height: 90px;">
+      <h1 style="padding-top: 10px;"><a href="http://www.shephertz.com/"> <img border="0" alt="ShepHertz Technologies" src="http://www.shephertz.com/images/logo.png"  style=" padding-top:5px"> </a></h1>
     </div>
     <div id="nav"> </div>
     <div id="section"><h1 class="heading"></h1> 
       <div id="page-wrapper">
-        <form action="/ShepPlayer/home/save" method="POST">
-          <div align="left"><label>Enter You Tube Embedded URL&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <g:form controller="home" action="save" method="POST">
+          <div align="left"><label>Enter YouTube embedded url&nbsp;&nbsp;&nbsp;&nbsp;</label>
             <span style="cell-padding: 200px">
               <input type="text" name="url" style="width: 580px; height: 30px;">
-  </span><span style="font-size: 13px; color: blue">(www.youtube.com/embed/76TmQu3iHJw)</span>
+            </span><span style="font-size: 13px; color: blue">(www.youtube.com/embed/76TmQu3iHJw)</span>
             <div style="padding-left: 820px; margin-top: -49px; padding-bottom: 100px;">
               <input type="submit" class="btn btn-primary" value="Submit"></div>
-          </div> </form>
+          </div> </g:form>
       </div>
       <g:if test="${mediaInstance.size() !=0}">
         <g:each in="${mediaInstance}" var="media" status="i">
