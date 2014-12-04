@@ -10,9 +10,9 @@ environments {
             dbCreate = "update" // one of 'create', 'create-drop','update'
             pooled = true
             driverClassName = "com.mysql.jdbc.Driver"
-            username = "adupmbs62z8xzw3e"
-            password = "a4wyk9k9b7r1fce15u7a5amfhoxwiz2w"
-            url = "jdbc:mysql://172.16.2.167:15532/app42?autoReconnect=true"
+            username = "a01lgg3nwbnatc9e"
+            password = "afklsytcy54olsdd7fi02e15eb6ce52j"
+            url = "jdbc:mysql://172.16.2.167:11970/demo?autoReconnect=true"
             dialect = "org.hibernate.dialect.MySQL5InnoDBDialect"
             properties {
                 validationQuery="select 1"
